@@ -1,6 +1,6 @@
 import random
 def genrate_list():
-    alist = [x for x in range(random.randint(-10,10))]
+    alist = [x for x in range(random.randint(1,10))]
     return alist
 
 def printIt():
